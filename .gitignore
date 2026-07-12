@@ -1,0 +1,7 @@
+# Raw project source files — optimized copies live in assets/
+PROJECT/
+FOTO BUDI.png
+
+# OS cruft
+.DS_Store
+Thumbs.db
