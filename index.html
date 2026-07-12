@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Budi Aulyansyah Ahmad Trisna — UI/UX Designer &amp; Front-end Developer</title>
+<meta name="description" content="Portfolio Budi Aulyansyah Ahmad Trisna — UI/UX Designer, Front-end &amp; Full-stack Web Developer, dengan latar belakang Videografi dan Fotografi profesional.">
+
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700,900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23090a0d'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Georgia,serif' fill='%234f8ef7' text-anchor='middle'%3EB%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Langsung ke konten</a>
+
+<div class="atmosphere" aria-hidden="true"></div>
+
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__mark">Budi<span class="nav__mark-dot">.</span></a>
+
+    <nav class="nav__links" aria-label="Navigasi utama">
+      <a href="#about" data-i18n="nav.about">Tentang</a>
+      <a href="#skills" data-i18n="nav.skills">Keahlian</a>
+      <a href="#experience" data-i18n="nav.experience">Pengalaman</a>
+      <a href="#achievements" data-i18n="nav.achievements">Penghargaan</a>
+      <a href="#projects" data-i18n="nav.projects">Proyek</a>
+      <a href="#contact" data-i18n="nav.contact">Kontak</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Ganti bahasa / Switch language">
+        <span class="lang-toggle__option" data-lang-option="id">ID</span><span class="lang-toggle__sep">/</span><span class="lang-toggle__option" data-lang-option="en">EN</span>
+      </button>
+      <a href="#contact" class="btn btn--primary btn--sm" data-i18n="nav.cta">Hubungi Saya</a>
+      <button class="nav__burger" id="navBurger" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="navMobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav__mobile" id="navMobile">
+    <div class="nav__mobile-inner">
+      <a href="#about" data-i18n="nav.about">Tentang</a>
+      <a href="#skills" data-i18n="nav.skills">Keahlian</a>
+      <a href="#experience" data-i18n="nav.experience">Pengalaman</a>
+      <a href="#achievements" data-i18n="nav.achievements">Penghargaan</a>
+      <a href="#projects" data-i18n="nav.projects">Proyek</a>
+      <a href="#contact" data-i18n="nav.contact">Kontak</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <p class="status-pill" data-reveal>
+          <span class="status-pill__dot" aria-hidden="true"></span>
+          <span data-i18n="hero.badge">Terbuka untuk Peluang Kerja</span>
+        </p>
+
+        <h1 class="hero__name" data-reveal>
+          <span class="hero__name-line">Budi Aulyansyah</span>
+          <span class="hero__name-line">Ahmad Trisna</span>
+        </h1>
+
+        <p class="hero__title" data-reveal data-i18n="hero.title">UI/UX Designer &amp; Front-end Web Developer</p>
+
+        <p class="hero__tagline" data-reveal data-i18n="hero.tagline" data-i18n-html>Setiap produk yang hebat selalu dimulai dengan satu pertanyaan sederhana: "Bagaimana jika dibuat lebih baik?".</p>
+
+        <div class="hero__actions" data-reveal>
+          <a href="#projects" class="btn btn--primary btn--lg">
+            <span data-i18n="hero.cta.primary">Lihat Proyek</span>
+            <svg class="btn__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8H12.5M12.5 8L8.5 4M12.5 8L8.5 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <button type="button" class="btn btn--ghost btn--lg" disabled aria-disabled="true" title="Tambahkan file CV untuk mengaktifkan tombol ini">
+            <span data-i18n="hero.cta.secondary">Unduh CV</span>
+          </button>
+        </div>
+
+        <dl class="hero__readout" data-reveal>
+          <div class="hero__readout-item">
+            <dt data-i18n="hero.stat.years">Tahun Pengalaman</dt>
+            <dd>3+</dd>
+          </div>
+          <div class="hero__readout-divider" aria-hidden="true"></div>
+          <div class="hero__readout-item">
+            <dt data-i18n="hero.stat.disciplines">Disiplin</dt>
+            <dd>UI/UX · Web · Mobile · Video</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="hero__figure" data-reveal id="heroFigure">
+        <div class="hero__figure-glow" aria-hidden="true"></div>
+        <div class="hero__glass" id="heroGlass" aria-hidden="true"></div>
+        <img src="assets/budi-portrait.png" alt="Potret Budi Aulyansyah Ahmad Trisna mengenakan jas formal" width="900" height="1200" class="hero__portrait" fetchpriority="high">
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue">
+      <span data-i18n="hero.scroll">Gulir</span>
+      <svg width="10" height="16" viewBox="0 0 10 16" fill="none" aria-hidden="true"><path d="M1 1L5 15L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-inner about__grid">
+      <div class="about__main">
+        <h2 class="section-heading" data-reveal data-i18n="about.heading">Tentang Saya</h2>
+        <p class="about__body" data-reveal data-i18n="about.body1" data-i18n-html>Perjalanan saya dimulai dari dunia visual — lulusan SMK Multimedia yang sempat bekerja sebagai Editor dan Kameramen di sebuah stasiun televisi lokal. Dari sana saya belajar bagaimana komposisi, gambar, dan cerita membentuk persepsi orang dalam hitungan detik. Ketertarikan itu membawa saya ke <span class="em">UI/UX Design</span> dan <span class="em">Front-end Web Development</span> saat kuliah Teknik Informatika, bidang yang saya tekuni lewat berbagai kompetisi nasional bersama tim.</p>
+        <p class="about__body" data-reveal data-i18n="about.body2" data-i18n-html>Saya percaya latar belakang visual ini jadi modal tersendiri — desainer yang paham gambar akan paham antarmuka. Sekarang saya sedang memperluas kemampuan ke pengembangan aplikasi mobile dengan <span class="hl">Flutter</span>, karena desainer yang memahami cara kerja implementasinya akan selalu menghasilkan keputusan desain yang lebih baik.</p>
+      </div>
+
+      <dl class="about__facts" data-reveal>
+        <div class="about__fact">
+          <dt data-i18n="about.facts.location">Lokasi</dt>
+          <dd data-i18n="about.facts.locationValue">Palangka Raya, Kalimantan Tengah</dd>
+        </div>
+        <div class="about__fact">
+          <dt data-i18n="about.facts.education">Pendidikan</dt>
+          <dd data-i18n="about.facts.educationValue">Universitas Palangka Raya</dd>
+        </div>
+        <div class="about__fact">
+          <dt data-i18n="about.facts.focus">Fokus</dt>
+          <dd>UI/UX · Web · Mobile · Video</dd>
+        </div>
+        <div class="about__fact">
+          <dt data-i18n="about.facts.status">Status</dt>
+          <dd data-i18n="about.facts.statusValue">Terbuka untuk kerja penuh waktu</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2 class="section-heading" data-reveal data-i18n="skills.heading">Keahlian</h2>
+        <p class="section-lead" data-reveal data-i18n="skills.lead">Tiga disiplin, satu cara berpikir yang sama: presisi dari ide sampai eksekusi.</p>
+      </div>
+
+      <div class="skills__panels">
+        <article class="skill-panel skill-panel--primary" data-reveal>
+          <span class="skill-panel__index">01</span>
+          <h3 data-i18n="skills.uiux.title">UI/UX Design</h3>
+          <p data-i18n="skills.uiux.desc">Merancang alur dan antarmuka yang jelas, teruji, dan enak dipakai.</p>
+          <ul class="skill-panel__tags">
+            <li>Figma</li><li>Wireframing</li><li>Prototyping</li>
+          </ul>
+        </article>
+
+        <article class="skill-panel" data-reveal>
+          <span class="skill-panel__index">02</span>
+          <h3 data-i18n="skills.web.title">Front-end &amp; Full-stack Web</h3>
+          <p data-i18n="skills.web.desc">Menerjemahkan desain jadi kode yang rapi — dari tampilan sampai basis data.</p>
+          <ul class="skill-panel__tags">
+            <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Tailwind CSS</li><li>Laravel</li><li>PHP</li><li>SQL</li>
+          </ul>
+        </article>
+
+        <article class="skill-panel" data-reveal>
+          <span class="skill-panel__index">03</span>
+          <h3 data-i18n="skills.media.title">Videografi &amp; Fotografi</h3>
+          <p data-i18n="skills.media.desc">Bekal profesional dari dunia broadcast — mengenal gambar sebelum mendesain layar.</p>
+          <ul class="skill-panel__tags">
+            <li>Adobe Premiere Pro</li><li>Adobe Photoshop</li><li data-i18n="skills.media.tag.video">Videografi</li><li data-i18n="skills.media.tag.photo">Fotografi</li>
+          </ul>
+        </article>
+
+        <article class="skill-panel skill-panel--emerging" data-reveal>
+          <span class="skill-panel__index">04</span>
+          <div class="skill-panel__title-row">
+            <h3 data-i18n="skills.mobile.title">Flutter &amp; Mobile</h3>
+            <span class="skill-panel__badge" data-i18n="skills.mobile.badge">Sedang Berkembang</span>
+          </div>
+          <p data-i18n="skills.mobile.desc">Memperluas kemampuan desain ke pengalaman native di Android.</p>
+          <ul class="skill-panel__tags">
+            <li>Flutter</li><li>Dart</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="skills__soft" data-reveal>
+        <span class="skills__soft-label" data-i18n="skills.soft.label">Keterampilan Lunak</span>
+        <ul class="skills__soft-tags">
+          <li data-i18n="skills.soft.communication">Komunikasi Tim</li>
+          <li data-i18n="skills.soft.collaboration">Kolaborasi</li>
+          <li data-i18n="skills.soft.problemSolving">Pemecahan Masalah</li>
+          <li data-i18n="skills.soft.english">Bahasa Inggris (Pemula–Menengah)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE & EDUCATION -->
+  <section class="experience" id="experience">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2 class="section-heading" data-reveal data-i18n="experience.heading">Pengalaman &amp; Pendidikan</h2>
+        <p class="section-lead" data-reveal data-i18n="experience.lead">Perjalanan singkat — dari ruang kelas ke studio kerja sungguhan.</p>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline__item" data-reveal>
+          <div class="timeline__date">
+            <span data-i18n="experience.item1.date">2022 — Sekarang</span>
+          </div>
+          <div class="timeline__content">
+            <span class="timeline__type" data-i18n="experience.type.education">Pendidikan</span>
+            <h3 data-i18n="experience.item1.role">S1 Teknik Informatika</h3>
+            <p class="timeline__org" data-i18n="experience.item1.org">Universitas Palangka Raya</p>
+            <ul>
+              <li data-i18n="experience.item1.point1">Mendalami UI/UX Design dan Front-end Web Development.</li>
+              <li data-i18n="experience.item1.point2">Aktif mengikuti kompetisi teknologi tingkat nasional (lihat bagian Penghargaan).</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline__item" data-reveal>
+          <div class="timeline__date">
+            <span data-i18n="experience.item2.date">Agu 2025 — Des 2025 · 5 bulan</span>
+          </div>
+          <div class="timeline__content">
+            <span class="timeline__type" data-i18n="experience.type.internship">Magang</span>
+            <h3 data-i18n="experience.item2.role">Fullstack Web Developer</h3>
+            <p class="timeline__org" data-i18n="experience.item2.org">Dinas Kominfo Kabupaten Katingan</p>
+            <ul>
+              <li data-i18n="experience.item2.point1">Membangun dan memelihara aplikasi web pemerintahan menggunakan Laravel.</li>
+              <li data-i18n="experience.item2.point2">Mengerjakan 3 website instansi: Dinas PUPR, Dinas DKUKMP, dan Sekretariat Daerah.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline__item" data-reveal>
+          <div class="timeline__date">
+            <span data-i18n="experience.item3.date">Des 2021 — Jun 2022 · 6 bulan</span>
+          </div>
+          <div class="timeline__content">
+            <span class="timeline__type" data-i18n="experience.type.work">Pengalaman Kerja</span>
+            <h3 data-i18n="experience.item3.role">Editor &amp; Kameramen</h3>
+            <p class="timeline__org" data-i18n="experience.item3.org">PT. Shinta Buana Vision (SBTV), Pangkalan Bun</p>
+            <ul>
+              <li data-i18n="experience.item3.point1">Mengoperasikan kamera untuk produksi program televisi.</li>
+              <li data-i18n="experience.item3.point2">Mengedit video tayangan menggunakan Adobe Premiere Pro.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline__item" data-reveal>
+          <div class="timeline__date">
+            <span data-i18n="experience.item4.date">Jul 2021 — Okt 2021 · 4 bulan</span>
+          </div>
+          <div class="timeline__content">
+            <span class="timeline__type" data-i18n="experience.type.internship">Magang</span>
+            <h3 data-i18n="experience.item4.role">Magang Editor &amp; Kameramen</h3>
+            <p class="timeline__org" data-i18n="experience.item4.org">PT. Shinta Buana Vision (SBTV), Pangkalan Bun</p>
+            <ul>
+              <li data-i18n="experience.item4.point1">Belajar dasar pengoperasian kamera dan teknik pengambilan gambar.</li>
+              <li data-i18n="experience.item4.point2">Membantu proses editing video untuk tayangan harian.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline__item" data-reveal>
+          <div class="timeline__date">
+            <span data-i18n="experience.item5.date">[2018] — [2022]</span>
+          </div>
+          <div class="timeline__content">
+            <span class="timeline__type" data-i18n="experience.type.education">Pendidikan</span>
+            <h3 data-i18n="experience.item5.role">SMK — Jurusan Multimedia</h3>
+            <p class="timeline__org" data-i18n="experience.item5.org">SMK Muhammadiyah Pangkalan Bun</p>
+            <ul>
+              <li data-i18n="experience.item5.point1">Mendalami desain grafis menggunakan Adobe Photoshop.</li>
+              <li data-i18n="experience.item5.point2">Mempelajari dasar fotografi dan videografi, termasuk camera angle dan positioning.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="achievements" id="achievements">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2 class="section-heading" data-reveal data-i18n="achievements.heading">Penghargaan</h2>
+        <p class="section-lead" data-reveal data-i18n="achievements.lead">Rekam jejak dari kompetisi teknologi tingkat nasional, sebagai UI/UX Designer dalam tim.</p>
+      </div>
+
+      <div class="achievements__grid">
+        <article class="achievement-card achievement-card--ranked" data-reveal>
+          <span class="achievement-card__rank" data-i18n="achievements.item1.rank">Juara 3</span>
+          <span class="achievement-card__date">Jun 2025</span>
+          <h3 data-i18n="achievements.item1.name">Hackathon Permikomnas</h3>
+          <p data-i18n="achievements.item1.desc">Kategori E-Government Tech — berkolaborasi dalam tim sebagai UI/UX Designer.</p>
+        </article>
+
+        <article class="achievement-card" data-reveal>
+          <span class="achievement-card__rank achievement-card__rank--finalist" data-i18n="achievements.finalist">Finalis</span>
+          <span class="achievement-card__date">Nov 2023</span>
+          <h3 data-i18n="achievements.item2.name">MTQMN</h3>
+          <p data-i18n="achievements.item2.desc">Desain aplikasi "Quranku" — berperan sebagai UI/UX Designer dalam tim.</p>
+        </article>
+
+        <article class="achievement-card" data-reveal>
+          <span class="achievement-card__rank achievement-card__rank--finalist" data-i18n="achievements.finalist">Finalis</span>
+          <span class="achievement-card__date">Sep 2023</span>
+          <h3 data-i18n="achievements.item3.name">GEMASTIK XVI</h3>
+          <p data-i18n="achievements.item3.desc">Kategori Pengembangan Perangkat Lunak — berperan sebagai UI/UX Designer dalam tim.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2 class="section-heading" data-reveal data-i18n="projects.heading">Proyek Terpilih</h2>
+        <p class="section-lead" data-reveal data-i18n="projects.lead">Studi kasus nyata dari kompetisi, magang, dan eksplorasi pribadi.</p>
+      </div>
+
+      <div class="project-list">
+        <article class="project-row" data-reveal>
+          <div class="project-row__visual project-row__visual--photo">
+            <img src="assets/projects/zeflow-cover.jpg" alt="Tampilan aplikasi ZeFlow — dashboard saldo, anggaran bulanan, dan riwayat pengeluaran" width="1000" height="1000" loading="lazy">
+          </div>
+          <div class="project-row__content">
+            <span class="project-row__category" data-i18n="projects.zeflow.category">Flutter &amp; Mobile</span>
+            <h3 data-i18n="projects.zeflow.title">ZeFlow</h3>
+            <p data-i18n="projects.zeflow.desc">Aplikasi manajemen keuangan pribadi — mencatat pemasukan, pengeluaran, dan anggaran bulanan, terhubung ke rekening bank dan e-wallet. Dirancang dan dibangun sendiri dengan Flutter.</p>
+            <ul class="project-row__tools">
+              <li>Flutter</li><li>Figma</li><li>UI/UX Design</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-row project-row--reverse" data-reveal>
+          <div class="project-row__visual project-row__visual--photo">
+            <img src="assets/projects/expert-system-cover.jpg" alt="Tampilan Zeez Expert System — diagnosis awal kerusakan laptop, PC, dan printer" width="1400" height="1400" loading="lazy">
+          </div>
+          <div class="project-row__content">
+            <span class="project-row__category" data-i18n="projects.expertSystem.category">Web App · Sistem Pakar</span>
+            <h3 data-i18n="projects.expertSystem.title">Zeez Expert System</h3>
+            <p data-i18n="projects.expertSystem.desc">Sistem pakar diagnosis awal kerusakan laptop, PC, dan printer menggunakan algoritma Hybrid Forward &amp; Backward Chaining, untuk brand Cellcom Tronic.</p>
+            <ul class="project-row__tools">
+              <li>UI/UX Design</li><li data-i18n="projects.expertSystem.tag2">Sistem Pakar</li><li data-i18n="projects.expertSystem.tag3">Forward Chaining</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-row" data-reveal>
+          <div class="project-row__visual project-row__visual--photo">
+            <img src="assets/projects/datang-bulan-cover.jpg" alt="Tampilan aplikasi Datang Bulan Tracker — pelacakan siklus haid dan masa subur" width="1400" height="1400" loading="lazy">
+          </div>
+          <div class="project-row__content">
+            <span class="project-row__category" data-i18n="projects.datangBulan.category">Flutter &amp; Mobile</span>
+            <h3 data-i18n="projects.datangBulan.title">Datang Bulan Tracker</h3>
+            <p data-i18n="projects.datangBulan.desc">Aplikasi Flutter untuk melacak siklus haid, masa subur, dan prakiraan kedatangan bulan berikutnya.</p>
+            <ul class="project-row__tools">
+              <li>Flutter</li><li>Figma</li><li>UI/UX Design</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <div class="projects__more" data-reveal>
+        <a href="projects.html" class="btn btn--ghost btn--lg">
+          <span data-i18n="projects.viewMore">Lihat Lebih Banyak Proyek</span>
+          <svg class="btn__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8H12.5M12.5 8L8.5 4M12.5 8L8.5 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-inner contact__inner">
+      <h2 class="contact__heading" data-reveal data-i18n="contact.heading">Mari Terhubung</h2>
+      <p class="contact__lead" data-reveal data-i18n="contact.lead">Sedang mencari UI/UX Designer atau Front-end Developer? Saya siap ngobrol.</p>
+
+      <a href="mailto:budi.placeholder@email.com" class="contact__email" data-reveal data-i18n="contact.emailValue">[email@domain.com]</a>
+
+      <div class="contact__socials" data-reveal>
+        <a href="#" class="social-link" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.94 5a1.94 1.94 0 11-3.88 0 1.94 1.94 0 013.88 0zM3.4 8.75h3.12V21H3.4V8.75zM9.5 8.75h2.99v1.68h.04c.42-.79 1.44-1.62 2.96-1.62 3.16 0 3.75 2.08 3.75 4.79V21h-3.12v-5.72c0-1.36-.02-3.12-1.9-3.12-1.9 0-2.2 1.48-2.2 3.02V21H9.5V8.75z" stroke="currentColor" stroke-width="0.6" fill="currentColor"/></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2a10 10 0 00-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.58 9.58 0 015 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0012 2z" stroke="currentColor" stroke-width="0.6" fill="currentColor"/></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="Behance">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7.8 9.6c.9 0 1.6-.2 2.1-.6.5-.4.7-1 .7-1.8 0-.5-.1-.8-.3-1.2-.2-.3-.4-.6-.7-.7-.3-.2-.6-.3-1-.3-.4-.1-.8-.1-1.2-.1H3v10.6h4.6c.5 0 .9 0 1.4-.1.4-.1.8-.3 1.2-.5.3-.2.6-.5.8-.9.2-.4.3-.8.3-1.4 0-.7-.2-1.3-.6-1.8-.4-.4-.9-.7-1.9-.9v-.3zM5.3 6.7h2c.4 0 .8.1 1 .3.3.2.4.5.4.9 0 .4-.1.7-.4.9-.3.2-.6.3-1.1.3h-2v-2.4zm2.3 8h-2.3v-2.8h2.3c.5 0 .9.1 1.2.3.3.2.5.6.5 1.1 0 .5-.2.9-.5 1.1-.3.2-.7.3-1.2.3zM20.6 8.9h-4.9v1.1h4.9V8.9zM18.1 10.4c-1 0-1.9.3-2.6 1-.7.7-1 1.6-1 2.8 0 1.2.3 2.1 1 2.8.7.6 1.6 1 2.7 1 .9 0 1.6-.2 2.2-.6.6-.4 1-1 1.2-1.7h-1.8c-.1.3-.3.5-.6.7-.3.2-.6.2-1 .2-.5 0-1-.2-1.3-.5-.3-.3-.5-.8-.5-1.4h5.3c0-.1 0-.3 0-.4 0-.6-.1-1.2-.3-1.7-.2-.5-.4-.9-.8-1.3-.3-.3-.7-.6-1.2-.8-.4-.1-.9-.2-1.3-.2zm-1.5 2.7c.1-.5.2-.9.5-1.1.3-.3.6-.4 1.1-.4.4 0 .8.1 1 .4.3.3.4.6.4 1.1h-3z" stroke="currentColor" stroke-width="0.3" fill="currentColor"/></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer__inner">
+    <p data-i18n="footer.credit">Dirancang &amp; dikembangkan oleh Budi Aulyansyah.</p>
+    <p class="footer__year">© <span id="year"></span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

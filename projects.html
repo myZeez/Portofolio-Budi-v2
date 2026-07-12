@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Semua Proyek — Budi Aulyansyah Ahmad Trisna</title>
+<meta name="description" content="Kumpulan lengkap proyek Budi Aulyansyah Ahmad Trisna — studi kasus UI/UX, aplikasi Flutter, dan website Laravel dari kompetisi, magang, dan eksplorasi pribadi.">
+
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700,900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23090a0d'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Georgia,serif' fill='%234f8ef7' text-anchor='middle'%3EB%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Langsung ke konten</a>
+
+<div class="atmosphere" aria-hidden="true"></div>
+
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__mark">Budi<span class="nav__mark-dot">.</span></a>
+
+    <nav class="nav__links" aria-label="Navigasi utama">
+      <a href="index.html#about" data-i18n="nav.about">Tentang</a>
+      <a href="index.html#skills" data-i18n="nav.skills">Keahlian</a>
+      <a href="index.html#experience" data-i18n="nav.experience">Pengalaman</a>
+      <a href="index.html#achievements" data-i18n="nav.achievements">Penghargaan</a>
+      <a href="projects.html" data-i18n="nav.projects">Proyek</a>
+      <a href="#contact" data-i18n="nav.contact">Kontak</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Ganti bahasa / Switch language">
+        <span class="lang-toggle__option" data-lang-option="id">ID</span><span class="lang-toggle__sep">/</span><span class="lang-toggle__option" data-lang-option="en">EN</span>
+      </button>
+      <a href="#contact" class="btn btn--primary btn--sm" data-i18n="nav.cta">Hubungi Saya</a>
+      <button class="nav__burger" id="navBurger" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="navMobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav__mobile" id="navMobile">
+    <div class="nav__mobile-inner">
+      <a href="index.html#about" data-i18n="nav.about">Tentang</a>
+      <a href="index.html#skills" data-i18n="nav.skills">Keahlian</a>
+      <a href="index.html#experience" data-i18n="nav.experience">Pengalaman</a>
+      <a href="index.html#achievements" data-i18n="nav.achievements">Penghargaan</a>
+      <a href="projects.html" data-i18n="nav.projects">Proyek</a>
+      <a href="#contact" data-i18n="nav.contact">Kontak</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="section-inner">
+      <a href="index.html" class="page-header__back" data-reveal>
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M12.5 8H3.5M3.5 8L7.5 4M3.5 8L7.5 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span data-i18n="projectsPage.back">Kembali ke Beranda</span>
+      </a>
+      <h1 class="page-header__title" data-reveal data-i18n="projectsPage.heading">Semua Proyek</h1>
+      <p class="page-header__lead" data-reveal data-i18n="projectsPage.lead">Kumpulan lengkap studi kasus dan eksplorasi desain saya — dari kompetisi, magang, sampai proyek pribadi.</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects projects--page" id="projects">
+    <div class="section-inner">
+      <div class="project-list">
+        <article class="project-row" data-reveal>
+          <div class="project-row__visual project-row__visual--photo">
+            <img src="assets/projects/zeflow-cover.jpg" alt="Tampilan aplikasi ZeFlow — dashboard saldo, anggaran bulanan, dan riwayat pengeluaran" width="1000" height="1000" loading="lazy">
+          </div>
+          <div class="project-row__content">
+            <span class="project-row__category" data-i18n="projects.zeflow.category">Flutter &amp; Mobile</span>
+            <h3 data-i18n="projects.zeflow.title">ZeFlow</h3>
+            <p data-i18n="projects.zeflow.desc">Aplikasi manajemen keuangan pribadi — mencatat pemasukan, pengeluaran, dan anggaran bulanan, terhubung ke rekening bank dan e-wallet. Dirancang dan dibangun sendiri dengan Flutter.</p>
+            <ul class="project-row__tools">
+              <li>Flutter</li><li>Figma</li><li>UI/UX Design</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-row project-row--reverse" data-reveal>
+          <div class="project-row__visual project-row__visual--photo">
+            <img src="assets/projects/expert-system-cover.jpg" alt="Tampilan Zeez Expert System — diagnosis awal kerusakan laptop, PC, dan printer" width="1400" height="1400" loading="lazy">
+          </div>
+          <div class="project-row__content">
+            <span class="project-row__category" data-i18n="projects.expertSystem.category">Web App · Sistem Pakar</span>
+            <h3 data-i18n="projects.expertSystem.title">Zeez Expert System</h3>
+            <p data-i18n="projects.expertSystem.desc">Sistem pakar diagnosis awal kerusakan laptop, PC, dan printer menggunakan algoritma Hybrid Forward &amp; Backward Chaining, untuk brand Cellcom Tronic.</p>
+            <ul class="project-row__tools">
+              <li>UI/UX Design</li><li data-i18n="projects.expertSystem.tag2">Sistem Pakar</li><li data-i18n="projects.expertSystem.tag3">Forward Chaining</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-row" data-reveal>
+          <div class="project-row__visual project-row__visual--photo">
+            <img src="assets/projects/datang-bulan-cover.jpg" alt="Tampilan aplikasi Datang Bulan Tracker — pelacakan siklus haid dan masa subur" width="1400" height="1400" loading="lazy">
+          </div>
+          <div class="project-row__content">
+            <span class="project-row__category" data-i18n="projects.datangBulan.category">Flutter &amp; Mobile</span>
+            <h3 data-i18n="projects.datangBulan.title">Datang Bulan Tracker</h3>
+            <p data-i18n="projects.datangBulan.desc">Aplikasi Flutter untuk melacak siklus haid, masa subur, dan prakiraan kedatangan bulan berikutnya.</p>
+            <ul class="project-row__tools">
+              <li>Flutter</li><li>Figma</li><li>UI/UX Design</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-row project-row--reverse" data-reveal>
+          <div class="project-row__visual project-row__visual--photo">
+            <img src="assets/projects/gojek-redesign-cover.jpg" alt="Tampilan redesain aplikasi Gojek — beranda, pemesanan makanan, dan pelacakan pesanan" width="1400" height="1292" loading="lazy">
+          </div>
+          <div class="project-row__content">
+            <span class="project-row__category" data-i18n="projects.gojek.category">UI/UX Case Study · Redesain</span>
+            <h3 data-i18n="projects.gojek.title">Redesain Aplikasi Gojek</h3>
+            <p data-i18n="projects.gojek.desc">Eksplorasi desain ulang untuk pengalaman pemesanan makanan dan transportasi yang lebih mulus — dari halaman utama, checkout, sampai pelacakan pesanan.</p>
+            <ul class="project-row__tools">
+              <li>Figma</li><li>UI/UX Design</li><li>Prototyping</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <div class="project-mini-head" data-reveal>
+        <h3 data-i18n="projects.moreHeading">Proyek Lainnya</h3>
+      </div>
+
+      <div class="project-mini-grid">
+        <article class="project-mini" data-reveal>
+          <div class="project-mini__image">
+            <img src="assets/projects/zepresent-cover.jpg" alt="Tampilan dashboard ZePresent — data transaksi presensi dan pengaturan jadwal karyawan" width="1400" height="1400" loading="lazy">
+          </div>
+          <div class="project-mini__body">
+            <h4 data-i18n="projects.zepresent.title">ZePresent</h4>
+            <p data-i18n="projects.zepresent.desc">Dashboard manajemen presensi karyawan — rekap kehadiran, jadwal shift, terintegrasi perangkat fingerprint.</p>
+            <span class="project-mini__tag">Flutter</span>
+          </div>
+        </article>
+
+        <article class="project-mini" data-reveal>
+          <div class="project-mini__image">
+            <img src="assets/projects/ADANES2.jpg" alt="Tampilan Website ADANEST" width="829" height="829" loading="lazy">
+          </div>
+          <div class="project-mini__body">
+            <h4 data-i18n="projects.adanest.title">ADANEST</h4>
+            <p data-i18n="projects.adanest.desc">Website Mendukung pemulihan diri dari kecancuan PMO, Menawarkan pemantauan kebiasaan, Artikel Motivasi, Konsultasi, dan Chat bot. GEMASTIK 2023</p>
+            <span class="project-mini__tag">UI/UX Design</span>
+          </div>
+        </article>
+
+        <article class="project-mini" data-reveal>
+          <div class="project-mini__image">
+            <img src="assets/projects/ADAAPI1.jpg" alt="Tampilan aplikasi ADAAPI" width="829" height="829" loading="lazy">
+          </div>
+          <div class="project-mini__body">
+            <h4 data-i18n="projects.adaapi.title">ADAAPI</h4>
+            <p data-i18n="projects.adaapi.desc">Platform akselerasi dan notifikasi darurat kebakaran terintegrasi dengan BPBD, menampilkan sistem peringatan real-time dan deteksi visual otomatis</p>
+            <span class="project-mini__tag">UI/UX Design</span>
+          </div>
+        </article>
+
+        <article class="project-mini" data-reveal>
+          <div class="project-mini__image">
+            <img src="assets/projects/sirtuin-cover.jpg" alt="Tampilan aplikasi SIRTUIN — beranda edukasi stunting, pelacakan nutrisi, dan konsultasi dokter" width="829" height="829" loading="lazy">
+          </div>
+          <div class="project-mini__body">
+            <h4 data-i18n="projects.sirtuin.title">SIRTUIN</h4>
+            <p data-i18n="projects.sirtuin.desc">Aplikasi edukasi dan monitoring gizi ibu dan anak untuk mencegah stunting. Dirancang bersama tim untuk GEMASTIK 2024.</p>
+            <span class="project-mini__tag">UI/UX Design</span>
+          </div>
+        </article>
+
+        <article class="project-mini" data-reveal>
+          <div class="project-mini__image">
+            <img src="assets/projects/gov-pupr-cover.jpg" alt="Tampilan beranda situs Dinas PUPR Kabupaten Katingan" width="1400" height="685" loading="lazy">
+          </div>
+          <div class="project-mini__body">
+            <h4 data-i18n="projects.govPupr.title">Website Dinas PUPR</h4>
+            <p data-i18n="projects.govPupr.desc">Website resmi Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Katingan, dibangun dengan Laravel.</p>
+            <div class="project-mini__links">
+              <a href="https://dpupr.katingankab.go.id/" target="_blank" rel="noopener"><span data-i18n="projects.visitSite">Kunjungi Situs</span><svg width="10" height="10" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12L12 4M12 4H6M12 4V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-mini" data-reveal>
+          <div class="project-mini__image">
+            <img src="assets/projects/gov-dkukmp-cover.jpg" alt="Tampilan beranda situs Dinas DKUKMP Kabupaten Katingan" width="1400" height="673" loading="lazy">
+          </div>
+          <div class="project-mini__body">
+            <h4 data-i18n="projects.govDkukmp.title">Website Dinas DKUKMP</h4>
+            <p data-i18n="projects.govDkukmp.desc">Website resmi Dinas Koperasi, UKM, dan Perdagangan Kabupaten Katingan, dibangun dengan Laravel.</p>
+            <div class="project-mini__links">
+              <a href="https://dkukmp.katingankab.go.id/" target="_blank" rel="noopener"><span data-i18n="projects.visitSite">Kunjungi Situs</span><svg width="10" height="10" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12L12 4M12 4H6M12 4V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-mini" data-reveal>
+          <div class="project-mini__image">
+            <img src="assets/projects/gov-setda-cover.jpg" alt="Tampilan beranda situs Sekretariat Daerah Kabupaten Katingan" width="1400" height="681" loading="lazy">
+          </div>
+          <div class="project-mini__body">
+            <h4 data-i18n="projects.govSetda.title">Website Sekretariat Daerah</h4>
+            <p data-i18n="projects.govSetda.desc">Website resmi Sekretariat Daerah Kabupaten Katingan, dibangun dengan Laravel.</p>
+            <div class="project-mini__links">
+              <a href="https://setda.katingankab.go.id/" target="_blank" rel="noopener"><span data-i18n="projects.visitSite">Kunjungi Situs</span><svg width="10" height="10" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12L12 4M12 4H6M12 4V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-mini" data-reveal>
+          <div class="project-mini__image">
+            <img src="assets/projects/design-cards-cover.jpg" alt="Eksplorasi desain kartu UI: login, registrasi, profil, dan konten" width="1400" height="1292" loading="lazy">
+          </div>
+          <div class="project-mini__body">
+            <h4 data-i18n="projects.designCards.title">Eksplorasi Desain Kartu UI</h4>
+            <p data-i18n="projects.designCards.desc">Studi komponen: kartu login, registrasi, profil, dan konten.</p>
+            <span class="project-mini__tag">UI/UX Design</span>
+          </div>
+        </article>
+
+        <article class="project-mini" data-reveal>
+          <div class="project-mini__image">
+            <img src="assets/projects/shopee-redesign-cover.jpg" alt="Tampilan redesain aplikasi Shopee — beranda, promo, dan keranjang belanja" width="1000" height="1000" loading="lazy">
+          </div>
+          <div class="project-mini__body">
+            <h4 data-i18n="projects.shopee.title">Redesain Aplikasi Shopee</h4>
+            <p data-i18n="projects.shopee.desc">Eksplorasi desain ulang untuk pengalaman belanja yang lebih segar dan modern.</p>
+            <span class="project-mini__tag">UI/UX Design</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-inner contact__inner">
+      <h2 class="contact__heading" data-reveal data-i18n="contact.heading">Mari Terhubung</h2>
+      <p class="contact__lead" data-reveal data-i18n="contact.lead">Sedang mencari UI/UX Designer atau Front-end Developer? Saya siap ngobrol.</p>
+
+      <a href="mailto:budi.placeholder@email.com" class="contact__email" data-reveal data-i18n="contact.emailValue">[email@domain.com]</a>
+
+      <div class="contact__socials" data-reveal>
+        <a href="#" class="social-link" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.94 5a1.94 1.94 0 11-3.88 0 1.94 1.94 0 013.88 0zM3.4 8.75h3.12V21H3.4V8.75zM9.5 8.75h2.99v1.68h.04c.42-.79 1.44-1.62 2.96-1.62 3.16 0 3.75 2.08 3.75 4.79V21h-3.12v-5.72c0-1.36-.02-3.12-1.9-3.12-1.9 0-2.2 1.48-2.2 3.02V21H9.5V8.75z" stroke="currentColor" stroke-width="0.6" fill="currentColor"/></svg>
+        </a>
+        <a href="https://github.com/myZeez?tab=repositories" class="social-link" aria-label="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2a10 10 0 00-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.58 9.58 0 015 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0012 2z" stroke="currentColor" stroke-width="0.6" fill="currentColor"/></svg>
+        </a>
+        <a href="https://www.instagram.com/budiaat/" class="social-link" aria-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer__inner">
+    <p data-i18n="footer.credit">Dirancang &amp; dikembangkan oleh Budi Aulyansyah.</p>
+    <p class="footer__year">© <span id="year"></span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
