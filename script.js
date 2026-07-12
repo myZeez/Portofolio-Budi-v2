@@ -33,6 +33,8 @@
       'about.facts.focus': 'Fokus',
       'about.facts.status': 'Status', 'about.facts.statusValue': 'Terbuka untuk kerja penuh waktu',
 
+      'quote.text': 'Kamera, desain, lalu kode — tiga bahasa berbeda yang kupelajari dengan cara yang sama: <span class="hl">coba dulu, salah, lalu paham</span>.',
+
       'skills.heading': 'Keahlian',
       'skills.lead': 'Empat disiplin, satu cara berpikir yang sama: presisi dari ide sampai eksekusi.',
       'skills.uiux.title': 'UI/UX Design',
@@ -77,7 +79,7 @@
       'experience.item4.org': 'PT. Shinta Buana Vision (SBTV), Pangkalan Bun',
       'experience.item4.point1': 'Belajar dasar pengoperasian kamera dan teknik pengambilan gambar.',
       'experience.item4.point2': 'Membantu proses editing video untuk tayangan harian.',
-      'experience.item5.date': '[Tahun Masuk] — [Tahun Lulus]',
+      'experience.item5.date': '2019 — 2022',
       'experience.item5.role': 'SMK — Jurusan Multimedia',
       'experience.item5.org': 'SMK Muhammadiyah Pangkalan Bun',
       'experience.item5.point1': 'Mendalami desain grafis menggunakan Adobe Photoshop.',
@@ -165,6 +167,8 @@
       'about.facts.focus': 'Focus',
       'about.facts.status': 'Status', 'about.facts.statusValue': 'Open to full-time roles',
 
+      'quote.text': 'Camera, design, then code — three different languages I learned the same way: <span class="hl">try first, fail, then understand</span>.',
+
       'skills.heading': 'Skills',
       'skills.lead': 'Four disciplines, one way of thinking: precision from idea to execution.',
       'skills.uiux.title': 'UI/UX Design',
@@ -209,7 +213,7 @@
       'experience.item4.org': 'PT. Shinta Buana Vision (SBTV), Pangkalan Bun',
       'experience.item4.point1': 'Learned camera operation basics and shot composition techniques.',
       'experience.item4.point2': 'Assisted with video editing for daily broadcasts.',
-      'experience.item5.date': '[Start Year] — [Graduation Year]',
+      'experience.item5.date': '2019 — 2022',
       'experience.item5.role': 'Vocational High School — Multimedia',
       'experience.item5.org': 'SMK Muhammadiyah Pangkalan Bun',
       'experience.item5.point1': 'Studied graphic design using Adobe Photoshop.',
