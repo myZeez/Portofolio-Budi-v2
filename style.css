@@ -391,9 +391,18 @@ p { text-wrap: pretty; }
 @media (min-width: 1024px) { .nav__inner { padding-inline: var(--space-2xl); } }
 
 .nav__mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-size: var(--text-lg);
   font-weight: 700;
   letter-spacing: var(--tracking-tight);
+}
+.nav__mark-logo {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 .nav__mark-dot { color: var(--sapphire-bright); }
 
@@ -1316,8 +1325,151 @@ p { text-wrap: pretty; }
 .footer__inner {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: var(--space-sm);
   justify-content: space-between;
   font-size: var(--text-sm);
   color: var(--faint);
+}
+
+.footer__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.footer__logo {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+
+/* ==========================================================================
+   zeProduction Branding & Services
+   ========================================================================== */
+
+.project-row__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs);
+  margin-bottom: 0.35rem;
+}
+
+.project-row__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--muted);
+  padding: 0.15rem 0.55rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-soft);
+  background: var(--surface);
+}
+
+.project-row__brand img {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+  display: block;
+}
+
+.brand-services {
+  padding-block: var(--space-3xl);
+  border-top: 1px solid var(--border-soft);
+}
+
+.brand-services__card {
+  background: linear-gradient(160deg, var(--surface) 0%, oklch(0.115 0.014 235) 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: clamp(1.5rem, 1rem + 2.5vw, 3rem);
+  display: grid;
+  gap: var(--space-xl);
+}
+
+.brand-services__head {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  max-width: 44rem;
+}
+
+.brand-services__logo {
+  height: clamp(28px, 24px + 1vw, 38px);
+  width: auto;
+  align-self: flex-start;
+  display: block;
+}
+
+.brand-services__lead {
+  font-size: var(--text-lg);
+  color: var(--text-secondary);
+  line-height: var(--lh-body);
+}
+
+.brand-services__grid {
+  display: grid;
+  gap: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .brand-services__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.brand-service-item {
+  background: oklch(0.11 0.01 235 / 0.8);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+  transition: border-color var(--duration-base) var(--ease-out-quart),
+              transform var(--duration-base) var(--ease-out-quart);
+}
+
+.brand-service-item:hover {
+  border-color: var(--sapphire-bright);
+  transform: translateY(-2px);
+}
+
+.brand-service-item__label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  color: var(--sapphire-bright);
+}
+
+.brand-service-item h3 {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.brand-service-item p {
+  font-size: var(--text-sm);
+  color: var(--muted);
+  line-height: var(--lh-body);
+}
+
+.brand-services__foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--border-soft);
+}
+
+.brand-services__note {
+  font-size: var(--text-sm);
+  color: var(--muted);
 }

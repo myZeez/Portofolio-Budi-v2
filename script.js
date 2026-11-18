@@ -98,6 +98,15 @@
 
       'projects.heading': 'Proyek Terpilih',
       'projects.lead': 'Studi kasus nyata dari kompetisi, magang, dan eksplorasi pribadi.',
+      'projects.warlok.category': 'Web App · Direktori UMKM Lokal',
+      'projects.warlok.title': 'WarLok.ze',
+      'projects.warlok.desc': 'Ruang digital untuk UMKM lokal di Palangka Raya dan Kalimantan Tengah agar lebih mudah ditemukan dan dikenal lebih luas — menampilkan profil usaha, produk unggulan, dan cerita di balik setiap karya.',
+      'projects.zeautorent.category': 'Web App · Rental Mobil Premium',
+      'projects.zeautorent.title': 'zeAUTOrent',
+      'projects.zeautorent.desc': 'Platform penyewaan mobil premium yang dirancang untuk memberikan pengalaman pemesanan armada yang cepat, jelas, dan nyaman bagi perjalanan bisnis maupun keluarga.',
+      'projects.zeconvert.category': 'Web & Desktop · Media Converter',
+      'projects.zeconvert.title': 'zeConvert',
+      'projects.zeconvert.desc': 'Alat konversi media cepat dan privat tanpa akun — mengubah tautan YouTube, TikTok, Instagram, Facebook, atau file lokal menjadi format MP3 maupun MP4 HD dalam satu antarmuka.',
       'projects.zepos.category': 'Web App · POS & Inventaris',
       'projects.zepos.title': 'ZePos',
       'projects.zepos.desc': 'Platform point of sale dan inventaris yang fleksibel untuk berbagai jenis bisnis. Membantu pengelolaan produk, transaksi, stok, dan operasional toko dalam satu sistem.',
@@ -146,11 +155,21 @@
       'projects.adaapi.title': 'ADAAPI',
       'projects.adaapi.desc': 'Platform akselerasi dan notifikasi darurat kebakaran terintegrasi dengan BPBD, menampilkan sistem peringatan real-time dan deteksi visual otomatis.',
 
+      'brand.lead': 'Branding pribadi di balik setiap proyek yang saya bangun — siap menerima jasa pembuatan website, aplikasi Android, dan aplikasi Windows dengan desain rapi dan performa optimal.',
+      'brand.web.title': 'Pembuatan Website',
+      'brand.web.desc': 'Company profile, sistem informasi, landing page, hingga web app custom dengan Laravel atau stack web modern.',
+      'brand.android.title': 'Aplikasi Android',
+      'brand.android.desc': 'Pengembangan aplikasi mobile Android yang responsif, ringan, dan nyaman digunakan dengan Flutter.',
+      'brand.windows.title': 'Aplikasi Windows',
+      'brand.windows.desc': 'Aplikasi desktop Windows untuk kebutuhan operasional bisnis, kasir/POS, maupun utilitas khusus.',
+      'brand.note': 'Setiap karya dirilis dengan standar kualitas zeProduction.',
+      'brand.cta': 'Konsultasi Proyek',
+
       'contact.heading': 'Mari Terhubung',
       'contact.lead': 'Sedang mencari UI/UX Designer atau Front-end Developer? Saya siap ngobrol.',
       'contact.emailValue': 'budiaat25@gmail.com',
 
-      'footer.credit': 'Dirancang & dikembangkan oleh Budi Aulyansyah.'
+      'footer.credit': 'Dirancang & dikembangkan oleh Budi Aulyansyah · zeProduction.'
     },
     en: {
       'a11y.skip': 'Skip to content',
@@ -244,6 +263,15 @@
 
       'projects.heading': 'Selected Projects',
       'projects.lead': 'Real case studies from competitions, internships, and personal exploration.',
+      'projects.warlok.category': 'Web App · Local Business Directory',
+      'projects.warlok.title': 'WarLok.ze',
+      'projects.warlok.desc': 'A digital space for local MSMEs in Palangka Raya and Central Kalimantan to be discovered more widely — showcasing business profiles, featured products, and the stories behind each craft.',
+      'projects.zeautorent.category': 'Web App · Premium Car Rental',
+      'projects.zeautorent.title': 'zeAUTOrent',
+      'projects.zeautorent.desc': 'A premium car rental platform designed to deliver a fast, clear, and comfortable fleet booking experience for business and family trips.',
+      'projects.zeconvert.category': 'Web & Desktop · Media Converter',
+      'projects.zeconvert.title': 'zeConvert',
+      'projects.zeconvert.desc': 'A fast, private, account-free media converter — turning YouTube, TikTok, Instagram, Facebook links or local files into MP3 or HD MP4 in a single clean interface.',
       'projects.zepos.category': 'Web App · POS & Inventory',
       'projects.zepos.title': 'ZePos',
       'projects.zepos.desc': 'A flexible point-of-sale and inventory platform for a range of business types. It brings products, transactions, stock, and store operations into one system.',
@@ -292,11 +320,21 @@
       'projects.adaapi.title': 'ADAAPI',
       'projects.adaapi.desc': 'An integrated platform for fire emergency acceleration and notifications with BPBD, featuring real-time alerts and automatic visual detection.',
       
+      'brand.lead': 'The personal brand behind every project I build — available for custom Website, Android App, and Windows App development with clean design and reliable performance.',
+      'brand.web.title': 'Website Development',
+      'brand.web.desc': 'Company profiles, information systems, landing pages, and custom web apps built with Laravel or modern web stacks.',
+      'brand.android.title': 'Android Applications',
+      'brand.android.desc': 'Responsive, lightweight, and intuitive Android mobile apps crafted with Flutter.',
+      'brand.windows.title': 'Windows Applications',
+      'brand.windows.desc': 'Custom Windows desktop applications for business operations, POS/cashier workflows, and specialized utilities.',
+      'brand.note': 'Every release is crafted under zeProduction quality standards.',
+      'brand.cta': 'Discuss a Project',
+
       'contact.heading': "Let's Connect",
       'contact.lead': "Looking for a UI/UX Designer or Front-end Developer? I'd love to talk.",
       'contact.emailValue': 'budiaat25@gmail.com',
 
-      'footer.credit': 'Designed & built by Budi Aulyansyah.'
+      'footer.credit': 'Designed & built by Budi Aulyansyah · zeProduction.'
     }
   };
 
